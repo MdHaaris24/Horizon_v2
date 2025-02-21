@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:home/signin_screen.dart';
-import 'package:home/theme.dart';
-import 'package:home/custom_scaffold.dart';
+import 'package:horizon_v2/authentication/login/signin_screen.dart';
+import 'package:horizon_v2/custom_widgets/custom_scaffold.dart';
+import 'package:horizon_v2/utils/constants/colors.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -48,7 +48,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         style: TextStyle(
                           fontSize: 30.0,
                           fontWeight: FontWeight.w900,
-                          color: lightColorScheme.primary,
+                          color: TColors.primary,
                         ),
                       ),
                       const SizedBox(
@@ -159,7 +159,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 agreePersonalData = value!;
                               });
                             },
-                            activeColor: lightColorScheme.primary,
+                            activeColor: TColors.primary,
                           ),
                           const Text(
                             'I agree to the processing of ',
@@ -171,7 +171,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             'Personal data',
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              color: lightColorScheme.primary,
+                              color: TColors.primary,
                             ),
                           ),
                         ],
@@ -274,7 +274,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               'Sign in',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                color: lightColorScheme.primary,
+                                color: TColors.primary,
                               ),
                             ),
                           ),

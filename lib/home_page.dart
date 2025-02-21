@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:home/custom_appbar.dart';
-import 'package:home/event_menu.dart';
-import 'package:home/navigation_drawer.dart';
+import 'package:horizon_v2/custom_widgets/custom_appbar.dart';
+import 'package:horizon_v2/event_menu.dart';
+import 'package:horizon_v2/custom_widgets/navigation_drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

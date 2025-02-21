@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:home/custom_appbar.dart';
-import 'package:home/navigation_drawer.dart';
+import 'package:horizon_v2/custom_widgets/custom_appbar.dart';
+import 'package:horizon_v2/custom_widgets/navigation_drawer.dart';
 
 class ServiceMenu1 extends StatefulWidget {
   final Map<String, String> menuItems;

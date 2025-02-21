@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:home/signin_screen.dart';
-import 'package:home/signup_screen.dart';
-import 'package:home/theme.dart';
-import 'package:home/custom_scaffold.dart';
-import 'package:home/welcome_button.dart';
+import 'package:horizon_v2/authentication/login/signin_screen.dart';
+import 'package:horizon_v2/authentication/register/signup_screen.dart';
+
+import 'package:horizon_v2/custom_widgets/custom_scaffold.dart';
+import 'package:horizon_v2/custom_widgets/welcome_button.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -62,7 +62,6 @@ class WelcomeScreen extends StatelessWidget {
                       buttonText: 'Sign up',
                       onTap: const SignUpScreen(),
                       color: Colors.white,
-                      textColor: lightColorScheme.primary,
                     ),
                   ),
                 ],

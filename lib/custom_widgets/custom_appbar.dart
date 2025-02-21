@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:home/cart.dart';
-import 'package:home/profile.dart';
-import 'package:home/custom_search.dart';
+import 'package:horizon_v2/custom_widgets/cart.dart';
+import 'package:horizon_v2/custom_widgets/profile.dart';
+import 'package:horizon_v2/custom_widgets/custom_search.dart';
 
 class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
   final String title;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:home/home_page.dart';
-import 'package:home/contact_us.dart';
-import 'package:home/about_us.dart';
-import 'package:home/service_menu.dart';
+import 'package:horizon_v2/home_page.dart';
+import 'package:horizon_v2/contactus/contact_us.dart';
+import 'package:horizon_v2/aboutus/about_us.dart';
+import 'package:horizon_v2/service_menu.dart';
 
 class NavDrawer extends StatelessWidget {
   const NavDrawer({super.key});

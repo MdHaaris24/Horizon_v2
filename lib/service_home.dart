@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'custom_event_card.dart';
+import 'custom_widgets/custom_event_card.dart';
 import 'service_menu.dart'; // Import the ServiceMenu page
 
 class ServicesHome extends StatelessWidget {

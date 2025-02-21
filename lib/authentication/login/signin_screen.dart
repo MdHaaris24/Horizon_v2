@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:home/home_page.dart';
-import 'package:home/signup_screen.dart';
-import 'package:home/custom_scaffold.dart';
-
-import '../theme.dart';
+import 'package:horizon_v2/home_page.dart';
+import 'package:horizon_v2/authentication/register/signup_screen.dart';
+import 'package:horizon_v2/custom_widgets/custom_scaffold.dart';
+import 'package:horizon_v2/utils/constants/colors.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
@@ -48,7 +47,7 @@ class _SignInScreenState extends State<SignInScreen> {
                         style: TextStyle(
                           fontSize: 30.0,
                           fontWeight: FontWeight.w900,
-                          color: lightColorScheme.primary,
+                          color: TColors.primary,
                         ),
                       ),
                       const SizedBox(
@@ -128,7 +127,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                     rememberPassword = value!;
                                   });
                                 },
-                                activeColor: lightColorScheme.primary,
+                                activeColor: TColors.primary,
                               ),
                               const Text(
                                 'Remember me',
@@ -143,7 +142,7 @@ class _SignInScreenState extends State<SignInScreen> {
                               'Forget password?',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                color: lightColorScheme.primary,
+                                color: TColors.primary,
                               ),
                             ),
                           ),
@@ -250,7 +249,7 @@ class _SignInScreenState extends State<SignInScreen> {
                               'Sign up',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                color: lightColorScheme.primary,
+                                color: TColors.primary,
                               ),
                             ),
                           ),

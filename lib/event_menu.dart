@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:home/package_home.dart';
-import 'package:home/service_home.dart';
+import 'package:horizon_v2/package_home.dart';
+import 'package:horizon_v2/service_home.dart';
 import 'offer_slide.dart';
 
 class EventMenu extends StatelessWidget {

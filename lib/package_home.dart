@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:home/package_menu.dart';
+import 'package:horizon_v2/package_menu.dart';
 
 class PackageHome extends StatelessWidget {
   final List<Map<String, String>> menuItems;
