@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:horizon_v2/authentication/login/signin_screen.dart';
+import 'package:horizon_v2/authentication/login/login_screen.dart';
 import 'package:horizon_v2/authentication/register/signup_screen.dart';
 
 import 'package:horizon_v2/custom_widgets/custom_scaffold.dart';
@@ -52,7 +52,7 @@ class WelcomeScreen extends StatelessWidget {
                   const Expanded(
                     child: WelcomeButton(
                       buttonText: 'Sign in',
-                      onTap: SignInScreen(),
+                      onTap: LoginScreen(),
                       color: Colors.transparent,
                       textColor: Colors.white,
                     ),
@@ -60,7 +60,7 @@ class WelcomeScreen extends StatelessWidget {
                   Expanded(
                     child: WelcomeButton(
                       buttonText: 'Sign up',
-                      onTap: const SignUpScreen(),
+                      onTap: const SignupScreen(),
                       color: Colors.white,
                     ),
                   ),
