@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:horizon_v2/authentication/register/signup_screen.dart';
 import 'package:iconsax/iconsax.dart';
+import '../../../appbar&navbar/naviagtion_menu.dart';
 import '../../../utils/constants/sizes.dart';
 import '../../../utils/constants/text_strings.dart';
 import '../../forgot_password_screen.dart';
+import 'package:get/get.dart';
 
 class TLoginForm extends StatelessWidget {
   const TLoginForm({
@@ -80,7 +82,9 @@ class TLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(
+                    () => NavigationMenu(),
+                ),
                 child: Text(TTexts.signIn),
               ),
             ),

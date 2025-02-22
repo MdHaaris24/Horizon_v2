@@ -49,6 +49,7 @@ dev_dependencies:
   intl: ^0.20.2
   iconsax: ^0.0.8
   get: ^4.7.2
+  url_launcher: ^6.3.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
